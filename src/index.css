@@ -10,7 +10,7 @@ body {
   width: 100%;
   padding-bottom: 100%;
   vertical-align: middle;
-  overflow: hidden;
+  overflow: scroll;
   background-color: black;
   color: white;
 }
@@ -21,12 +21,12 @@ body {
   height: 100px
 }
 .tooltip-style {
-  font: 22px sans-serif;
+  font: 100% sans-serif;
   transition: 0.35s ease-in-out;
   color: rgb(226, 197, 197);
   position: absolute;
   pointer-events: none;
-  width: 9%;
+  width: 10%;
   text-align: center;
   background: rgba(82, 77, 77, 0.178);
 }

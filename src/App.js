@@ -28,7 +28,7 @@ var svg = d3.select(ref.current)
           "translate(" + margin.left + "," + margin.top + ")");
 const y = d3.scaleLinear()
   .range([0,height])
-  .domain([20000, 0])
+  .domain([18000, 0])
 svg.append("g")
   .call(d3.axisLeft(y))
   .style('font',"12px sans-serif")
@@ -74,7 +74,7 @@ svg.append('text')
   .attr('transform', 'translate(-60'+' ,'+(margin.top+250)+
 ')rotate(-90)')
   .style('text-anchor', 'middle')
-  .text('Gross Domestic Product (Billion)')
+  .text('Gross Domestic Product (Million)')
   .style('font',"16px sans-serif")
   .attr('fill', 'gray')
 //Bars
@@ -124,7 +124,7 @@ svg.append('text')
   return (
     <div className="body">
 
-         <svg style={{width:'80%', height:'100%'}} viewBox='-100 -100 1000 1050' ref={ref} >
+         <svg style={{width:'80%', height:'100%'}} viewBox='-100 -100 800 1350' ref={ref} >
       
     </svg>
     </div>
